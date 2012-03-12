@@ -1,0 +1,17 @@
+Particle Filter Demo and Visualization tool in C#,
+I created this tool while I was studying the "CS373 - Programming a robotic car"online course at udacity (www.udacity.com).
+I hope it will be useful for you to understand how particle filters work and how they are coded.
+
+Particles are updated according straight line motion model. Where step size and direction of motion are both subject to gaussian noise. you can configure the step size, standard deviation of its noise, direction of motion, and the standard deviation of its noise in the GUI. You can also specify the number of particles.
+
+You can control how different particles are weighted by selecting one of the following modes:
+	1) all particles will have equal weights
+	2) particles are randomaly weighted
+	3) particles to the right will have higher weights
+	4) particles closer to the top will have higher weights
+	5) particles closer to the main diagonal will have higher weights
+
+This demo can run either in a step-by-step mode or as a continous update mode (animation).
+Best regards,
+Moustafa Alzantot
+m.alzantot@gmail.com
